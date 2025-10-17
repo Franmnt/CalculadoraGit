@@ -23,6 +23,9 @@ public class Calculadora {
 		double multiplicacion = multiplicar (a, b);
 		System.out.println(multiplicacion);
 		
+		double division = dividir (a, b);
+		System.out.println(division);
+		
 	}
 	public static double sumar (double a, double b) {
 		
@@ -40,4 +43,10 @@ public class Calculadora {
 	
 		return a *b;
 }
+	public static double dividir (double a, double b) {
+		if (b == 0) {
+			System.out.println("No se puede dividir entre 0");
+		}
+		return a/b;
+	}
 }
