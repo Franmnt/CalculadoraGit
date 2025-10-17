@@ -17,10 +17,20 @@ public class Calculadora {
 		double suma = sumar (a, b);
 		System.out.println(suma);
 		
+		double resta = restar (a, b);
+		System.out.println(resta);
+		
 	}
 	public static double sumar (double a, double b) {
 		
 		return a + b;
 	}
+	
 
+
+
+	public static double restar (double a, double b) {
+		
+		return a - b;
+}
 }
